@@ -180,7 +180,7 @@ public class RestfullBooker extends BaseClass{
             bookingId = responseObject.getBookingid();
 
             verifyBookingIsCreated(bookingId);
-            System.out.println("Booking " + i + ". created, booking id = " + bookingId + " response time: " + elapsed + " miliseconds");
+            System.out.println("Booking " + i + ". created, booking id = " + bookingId + " response time: " + elapsed + " miliseconds bla bla bla");
 
         }
     }
